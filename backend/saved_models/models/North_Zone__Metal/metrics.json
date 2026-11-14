@@ -1,0 +1,66 @@
+{
+  "area": "North Zone",
+  "waste_type": "Metal",
+  "n_days": 365,
+  "density": 66.497,
+  "train_days": 335,
+  "test_days": 30,
+  "metrics": {
+    "random_forest": {
+      "rmse": 3.3684,
+      "mae": 2.6123,
+      "r2": 0.3372,
+      "mape": 67.48
+    },
+    "xgboost": {
+      "rmse": 3.4732,
+      "mae": 2.4392,
+      "r2": 0.2953,
+      "mape": 77.32
+    },
+    "lstm": {
+      "rmse": 3.8046,
+      "mae": 3.0941,
+      "r2": 0.1544,
+      "mape": 78.56
+    },
+    "arima": {
+      "rmse": 3.8896,
+      "mae": 3.1725,
+      "r2": 0.1162,
+      "mape": 81.29
+    }
+  },
+  "multi_step_metrics": {
+    "random_forest": {
+      "rmse": 4.257,
+      "mae": 3.4201,
+      "r2": -0.0587,
+      "mape": 81.55
+    },
+    "xgboost": {
+      "rmse": 4.8348,
+      "mae": 4.0262,
+      "r2": -0.3656,
+      "mape": 98.42
+    },
+    "lstm": {
+      "rmse": 4.2747,
+      "mae": 3.6431,
+      "r2": -0.0675,
+      "mape": 82.44
+    },
+    "arima": {
+      "rmse": 4.3174,
+      "mae": 3.6816,
+      "r2": -0.089,
+      "mape": 81.87
+    }
+  },
+  "timings_sec": {
+    "random_forest": 5.39,
+    "xgboost": 0.6,
+    "lstm": 12.44,
+    "arima": 0.28
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "area": "Urban Zone",
+  "waste_type": "Paper",
+  "n_days": 364,
+  "density": 69.302,
+  "train_days": 334,
+  "test_days": 30,
+  "metrics": {
+    "random_forest": {
+      "rmse": 3.5505,
+      "mae": 2.3963,
+      "r2": -0.359,
+      "mape": 35.24
+    },
+    "xgboost": {
+      "rmse": 4.0613,
+      "mae": 2.9851,
+      "r2": -0.7781,
+      "mape": 37.23
+    },
+    "lstm": {
+      "rmse": 3.6249,
+      "mae": 2.4149,
+      "r2": -0.4165,
+      "mape": 39.47
+    },
+    "arima": {
+      "rmse": 3.639,
+      "mae": 2.4154,
+      "r2": -0.4275,
+      "mape": 38.91
+    }
+  },
+  "multi_step_metrics": {
+    "random_forest": {
+      "rmse": 3.3791,
+      "mae": 2.3814,
+      "r2": -0.231,
+      "mape": 29.31
+    },
+    "xgboost": {
+      "rmse": 3.6362,
+      "mae": 2.7054,
+      "r2": -0.4254,
+      "mape": 33.43
+    },
+    "lstm": {
+      "rmse": 3.4951,
+      "mae": 2.8051,
+      "r2": -0.3169,
+      "mape": 47.7
+    },
+    "arima": {
+      "rmse": 3.6417,
+      "mae": 3.0208,
+      "r2": -0.4297,
+      "mape": 51.32
+    }
+  },
+  "timings_sec": {
+    "random_forest": 7.08,
+    "xgboost": 0.83,
+    "lstm": 11.59,
+    "arima": 0.22
+  }
+}

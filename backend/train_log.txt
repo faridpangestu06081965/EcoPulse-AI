@@ -1,0 +1,67 @@
+﻿python : AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+At line:15 char:3394
++ ... modules\@vscode\ripgrep\bin'; python train_models.py *> train_log.txt
++                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (AttributeError:... 'GetPrototype':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+======================================================================
+EcoPulse model training (ARIMA | LSTM | RandomForest | XGBoost)
+======================================================================
+[ 1/48] Central Zone     | Glass    | best=random_forest  RMSE=4.570 ( 25.9s)
+[ 2/48] Central Zone     | Metal    | best=arima          RMSE=5.704 ( 13.5s)
+[ 3/48] Central Zone     | Mixed    | best=random_forest  RMSE=3.700 ( 17.1s)
+[ 4/48] Central Zone     | Organic  | best=arima          RMSE=4.211 ( 17.0s)
+[ 5/48] Central Zone     | Paper    | best=random_forest  RMSE=4.480 ( 21.2s)
+[ 6/48] Central Zone     | Plastic  | best=arima          RMSE=4.696 ( 19.7s)
+[ 7/48] East Zone        | Glass    | best=arima          RMSE=4.988 ( 39.4s)
+[ 8/48] East Zone        | Metal    | best=arima          RMSE=3.584 ( 21.3s)
+[ 9/48] East Zone        | Mixed    | best=arima          RMSE=4.412 ( 23.8s)
+[10/48] East Zone        | Organic  | best=lstm           RMSE=4.190 ( 28.8s)
+[11/48] East Zone        | Paper    | best=xgboost        RMSE=3.966 ( 25.9s)
+[12/48] East Zone        | Plastic  | best=arima          RMSE=6.017 ( 28.5s)
+[13/48] Industrial Zone  | Glass    | best=lstm           RMSE=3.134 ( 22.3s)
+[14/48] Industrial Zone  | Metal    | best=arima          RMSE=5.514 ( 16.8s)
+[15/48] Industrial Zone  | Mixed    | best=lstm           RMSE=2.777 ( 34.6s)
+[16/48] Industrial Zone  | Organic  | best=lstm           RMSE=5.431 ( 19.1s)
+[17/48] Industrial Zone  | Paper    | best=arima          RMSE=3.826 ( 21.3s)
+[18/48] Industrial Zone  | Plastic  | best=random_forest  RMSE=4.058 ( 19.9s)
+[19/48] North Zone       | Glass    | best=arima          RMSE=3.570 ( 20.1s)
+[20/48] North Zone       | Metal    | best=random_forest  RMSE=3.368 ( 21.0s)
+[21/48] North Zone       | Mixed    | best=arima          RMSE=4.377 ( 17.6s)
+[22/48] North Zone       | Organic  | best=arima          RMSE=4.490 ( 15.7s)
+[23/48] North Zone       | Paper    | best=xgboost        RMSE=2.950 ( 19.5s)
+[24/48] North Zone       | Plastic  | best=arima          RMSE=5.419 ( 14.6s)
+[25/48] South Zone       | Glass    | best=arima          RMSE=3.587 ( 23.0s)
+[26/48] South Zone       | Metal    | best=arima          RMSE=5.398 ( 24.8s)
+[27/48] South Zone       | Mixed    | best=xgboost        RMSE=2.804 ( 16.2s)
+[28/48] South Zone       | Organic  | best=random_forest  RMSE=5.603 ( 17.8s)
+[29/48] South Zone       | Paper    | best=xgboost        RMSE=5.490 ( 17.1s)
+[30/48] South Zone       | Plastic  | best=arima          RMSE=3.882 ( 13.4s)
+[31/48] Suburban Zone    | Glass    | best=arima          RMSE=5.255 ( 17.7s)
+[32/48] Suburban Zone    | Metal    | best=lstm           RMSE=5.619 ( 15.3s)
+[33/48] Suburban Zone    | Mixed    | best=arima          RMSE=5.523 ( 16.2s)
+[34/48] Suburban Zone    | Organic  | best=lstm           RMSE=4.642 ( 17.7s)
+[35/48] Suburban Zone    | Paper    | best=random_forest  RMSE=5.989 ( 15.0s)
+[36/48] Suburban Zone    | Plastic  | best=lstm           RMSE=3.986 ( 16.2s)
+[37/48] Urban Zone       | Glass    | best=random_forest  RMSE=2.835 ( 14.0s)
+[38/48] Urban Zone       | Metal    | best=xgboost        RMSE=3.724 ( 18.2s)
+[39/48] Urban Zone       | Mixed    | best=random_forest  RMSE=4.966 ( 15.1s)
+[40/48] Urban Zone       | Organic  | best=random_forest  RMSE=3.660 ( 15.8s)
+[41/48] Urban Zone       | Paper    | best=random_forest  RMSE=3.550 ( 14.0s)
+[42/48] Urban Zone       | Plastic  | best=random_forest  RMSE=6.089 ( 15.6s)
+[43/48] West Zone        | Glass    | best=arima          RMSE=6.608 ( 13.5s)
+[44/48] West Zone        | Metal    | best=lstm           RMSE=2.489 ( 13.7s)
+[45/48] West Zone        | Mixed    | best=arima          RMSE=4.615 ( 13.7s)
+[46/48] West Zone        | Organic  | best=random_forest  RMSE=4.130 (  0.0s)
+[47/48] West Zone        | Paper    | best=arima          RMSE=5.182 ( 21.8s)
+[48/48] West Zone        | Plastic  | best=arima          RMSE=2.203 ( 18.3s)
+======================================================================
+Training complete -> C:\Users\USER\Downloads\Waste\backend\saved_models\metrics.json
+Combinations trained: 48
+======================================================================

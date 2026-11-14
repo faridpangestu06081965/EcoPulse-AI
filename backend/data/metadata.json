@@ -1,0 +1,27 @@
+{
+  "name": "Smart_Solid_Waste_Management_Dataset.csv",
+  "rows": 15000,
+  "areas": [
+    "Central Zone",
+    "East Zone",
+    "Industrial Zone",
+    "North Zone",
+    "South Zone",
+    "Suburban Zone",
+    "Urban Zone",
+    "West Zone"
+  ],
+  "waste_types": [
+    "Glass",
+    "Metal",
+    "Mixed",
+    "Organic",
+    "Paper",
+    "Plastic"
+  ],
+  "start_date": "2024-08-04",
+  "end_date": "2025-08-03",
+  "total_days": 365,
+  "total_volume_m3": 156525.53,
+  "total_weight_tons": 10579.96
+}
